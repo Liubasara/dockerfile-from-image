@@ -16,7 +16,10 @@ is on the Docker Hub):
 
 To get a Dockerfile from an existing image:
 
+    # linux
     docker run --rm -v '/var/run/docker.sock:/var/run/docker.sock' lukapeschke/dfa <IMAGE_ID>
+    # windows
+    docker run --rm -v '//var/run/docker.sock:/var/run/docker.sock' lukapeschke/dfa <IMAGE_ID>
 
 ## Example with the official ubuntu image:
 
